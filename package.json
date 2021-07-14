@@ -33,7 +33,9 @@
     "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "nodemon": "^2.0.12",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
   },
   "keywords": [
     "gatsby",
@@ -45,7 +47,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "nodemon run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
